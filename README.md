@@ -1,8 +1,13 @@
-> **Commercial status:** Preview scaffold only. This repository is not currently a verified production-ready paid product. Do not treat it as commercially ready until this banner is removed.
+> **Commercial status:** Preview/unverified starter. This repository is not the current flagship and is not currently a commercially verified paid product.
+
+
+## Current Status
+
+This repository is a preview/unverified starter. It is not the active flagship and is not currently commercially verified. Do not treat it as a ready-to-buy production package until this notice is removed after a fresh commercial-readiness check.
 
 # PDF/Document → Structured JSON Extractor API
 
-A production-ready FastAPI service that converts PDFs, images, and documents into typed, validated JSON using [pydantic-ai](https://ai.pydantic.dev/). Ships with three battle-tested schemas (invoice, resume, contract), per-field confidence scoring, automatic retries on validation failure, and switchable OpenAI/Anthropic backends.
+A preview FastAPI service that converts PDFs, images, and documents into typed, validated JSON using [pydantic-ai](https://ai.pydantic.dev/). Sketches three example schemas (invoice, resume, contract), per-field confidence scoring, automatic retries on validation failure, and switchable OpenAI/Anthropic backends.
 
 ## Overview
 
