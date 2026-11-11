@@ -1,7 +1,7 @@
 """
-PDF/Document → Structured JSON Extractor API | pydantic-ai + FastAPI
-Intelligent document parsing with AI-powered structured extraction.
-Full working source: https://reactance0083.gumroad.com
+Document to Structured JSON API Design.
+Public interface scaffold: input, field, and output models.
+Extraction handlers are placeholders; see README for the implementation boundary.
 """
 
 # -- Preview scaffold (non-functional) --
@@ -41,7 +41,7 @@ class DocumentOutput(BaseModel):
     processing_time_ms: float = Field(default=0.0)
 
 
-# The full version includes:
+# Proposed extensions; not implemented in this public scaffold:
 # • PDF/image upload with multipart form support
 # • OCR preprocessing (PyMuPDF, pytesseract integration)
 # • Pydantic-AI agent orchestration for field extraction
